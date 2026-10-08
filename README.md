@@ -330,7 +330,7 @@ Tutti i comandi mal formattati vengono scartati e non incrementano il contatore 
 .data
 listInput: .string "ADD(1)~ADD(a)~ADD(a)~ADD(B)~ADD(;)~ADD(9)~SSX~SORT~PRINT~DEL(b)~DEL(B)~PRI~SDX~REV~PRINT"
 ```
-**Output Console:**
+**Output Terminale:**
 `~1~1a~1aa~1aaB~1aaB;~1aaB;9~aaB;91~;19aaB~;19aaB~;19aaB~;19aa~a;19a~a91;a~a91;a`
 
 ---
@@ -343,7 +343,7 @@ listInput: .string "ADD(1)~ADD(a)~ADD(a)~ADD(B)~ADD(;)~ADD(9)~SSX~SORT~PRINT~DEL
 .data
 listInput: .string "ADD(1)~SSX~ADD(a)~add(B)~ADD(B)~ADD~ADD(9)~PRINT~SORT(a)~PRINT~DEL(bb)~DEL(B)~PRINT~REV~SDX~PRINT"
 ```
-**Output Console:**
+**Output Terminale:**
 `~1~1~1a~1aB~1aB9~1aB9~1aB9~1a9~1a9~9a1~19a~19a`
 
 ---
@@ -356,7 +356,7 @@ listInput: .string "ADD(1)~SSX~ADD(a)~add(B)~ADD(B)~ADD~ADD(9)~PRINT~SORT(a)~PRI
 .data
 listInput: .string "REV~add(r)~ADD(A)~ADD(r)~add(5)~ADD(1)~ADD(5)~ADD(e)~del(r)~DEL(5)~REV~PRINT~SO RT~PRINT~SORT~PRINT"
 ```
-**Output Console:**
+**Output Terminale:**
 `~A~Ar~Ar1~Ar15~Ar15e~Ar1e~e1rA~e1rA~e1rA~1erA~1erA`
 
 ---
@@ -369,7 +369,7 @@ listInput: .string "REV~add(r)~ADD(A)~ADD(r)~add(5)~ADD(1)~ADD(5)~ADD(e)~del(r)~
 .data
 listInput: .string "ADD(o)~ADD(G)~ADD(42)~ADD(7)~ADD(@)~ADD(o)~PRINT~DEL(o)~SORT~PRINT~REV~PRINT(A)~PRINT"
 ```
-**Output Console:**
+**Output Terminale:**
 `~o~oG~oG7~oG7@~oG7@o~oG7@o~G7@~@7G~@7G~G7@~G7@`
 
 ---
@@ -382,7 +382,7 @@ listInput: .string "ADD(o)~ADD(G)~ADD(42)~ADD(7)~ADD(@)~ADD(o)~PRINT~DEL(o)~SORT
 .data
 listInput: .string "ADD(1)~ADD(2)~ADD(1)~ADD(4)~ADD(;)~PRI NT~DEL(1)~SORT~SSX~REV~DEL(4)~DEL(2)~PRINT"
 ```
-**Output Console:**
+**Output Terminale:**
 `~1~12~121~1214~1214;~24;~;24~24;~;42~;2~;~;`
 
 ---
