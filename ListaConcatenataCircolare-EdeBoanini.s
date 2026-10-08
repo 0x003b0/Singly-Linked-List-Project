@@ -1,4 +1,4 @@
-#AUTORE:        Boanini Ede
+#AUTORE:        0x003b0
  
 #[test eseguiti e funzionanti]:
 #ADD(1) ~ ADD(a) ~ ADD(a) ~ ADD(B) ~ ADD(;) ~ ADD(9) ~SSX~SORT~PRINT~DEL(b) ~DEL(B) ~PRI~SDX~REV~PRINT
