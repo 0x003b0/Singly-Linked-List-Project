@@ -395,5 +395,5 @@ listInput: .string "ADD(1)~ADD(2)~ADD(1)~ADD(4)~ADD(;)~PRI NT~DEL(1)~SORT~SSX~RE
 .data
 listInput: .string "ADD(1)~ADD(2)~ADD(1)~ADD(4)~SSX(n)~DEL(1)~SORT~SSX~REV~DEL(4)~DEL(2)~PRINT"
 ```
-**Output Console:**
+**Output Terminale:**
 `~1~12~121~1214~24~24~42~24~2~~`
